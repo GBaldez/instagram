@@ -1,0 +1,47 @@
+/*
+=========================================================HEADER
+=========================================================*/
+.header{
+    display:flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+.ig-logo{
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+.search-input{
+    background-color: #efefef;
+    height: 2.7rem;
+    width: 20rem;
+    outline: none;
+    border-radius: 10px;
+    border:0;
+    background-image: url('./img/search.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 1rem;
+    background-size: 1.5rem;
+}
+.search-input::placeholder{
+    padding-left: 2.5rem;
+}
+.search-input:focus{
+    background-image:none;
+}
+.search-input:focus::placeholder{
+    padding-left: 0;
+}
+.navbar {
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+.navbar img{
+    margin: 0 1rem;
+    height: 100%;
+}
+.profile-picture{
+    border-radius: 50%;
+}
