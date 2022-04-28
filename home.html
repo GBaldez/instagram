@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">
     <link rel="icon" href="./img/ig-icon.jpg">
+    <link rel="stylesheet" href="./owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
     <title>Instagram</title>
 </head>
 <body>
     <div class="wrapper">
+<!--HEADER-->
         <div class="header">
             <img src="./img/instagram-logo.png" class="ig-logo" alt="instagram logo">
             <input type="text" class="search-input" placeholder="Pesquisar">
@@ -18,15 +21,49 @@
                 <img src="./img/home.PNG" alt="home"><img src="./img/send.PNG" alt="send message"><img src="./img/add.PNG" alt="add">
                 <img src="./img/explore.PNG" alt="discover"><img src="./img/like.PNG" alt="like"><img class="profile-picture" src="./img/perfil-instagram.jpg" alt="profile-picture">
             </div>
-
-
         </div>
+<!--END OF HEADER-->
+<!--STORIES-->
         <div class="stories">
-
-        </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="story">
+                        <img class="stories-pic" src="./img/perfil-instagram.jpg">
+                    </div> 
+                        <p class="story-name">a</p>                   
+                </div>
+                <div class="item">
+                    <div class="story">
+                        <img class="stories-pic" src="./img/perfil-instagram.jpg">
+                    </div>
+                        <p class="story-name">a</p>               
+                </div>
+                <div class="item">
+                <div class="story">
+                    <img class="stories-pic" src="./img/perfil-instagram.jpg"></div>
+                    <p class="story-name">a</p>             
+            </div>
+            <div class="item">
+                <div class="story">
+                    <img class="stories-pic" src="./img/perfil-instagram.jpg">
+                </div>
+                    <p class="story-name">a</p>               
+            </div>
+            </div>  
+        </div>  
+            
+<!--END OF STORIES-->
         <div class="feed"></div>
         <div class="profile"></div>
         <div class="sugestions"></div>
     </div>
+    
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/setup.js"></script> 
+   
+    	
 </body>
 </html>
+
+
