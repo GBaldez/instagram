@@ -4,18 +4,20 @@
 .header{
     display:flex;
     width: 100vw;
-    justify-content: space-evenly;
     padding: 1rem;
     border-bottom: 1px solid lightgray;
 }
 .ig-logo{
     height: 2rem;
     margin-top: 0.5rem;
+    margin-left: 14rem;
+    
 }
 .search-input{
     background-color: #efefef;
     height: 2.7rem;
     width: 20rem;
+    margin-left: 15rem;
     outline: none;
     border-radius: 10px;
     border:0;
@@ -23,7 +25,8 @@
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 1rem;
-    background-size: 1.5rem; 
+    background-size: 1.5rem;
+    
 }
 .search-input::placeholder{
     padding-left: 2.5rem;
@@ -37,6 +40,7 @@
 .navbar {
     height: 1.5rem;
     margin-top: 0.5rem;
+    margin-left: 6rem;
 }
 .navbar img{
     margin: 0 1rem;
@@ -54,7 +58,7 @@ STORIES SECTION
     margin-left:15rem;
     margin-top:1.5rem;
     height: 8rem;
-    width: 50%;
+    width: 45%;
 }
 .stories-pic,
 .user-info-pic > img{
@@ -88,8 +92,7 @@ FEED SECTION
     border: 1px solid lightgray;
     margin-left:15rem;
     margin-top:1.5rem;
-    
-    width: 50%;
+    width: 45%;
 }
 .post-content > img{
     width: 100%;
@@ -146,4 +149,67 @@ h6 {
     font-size: medium;
     background-color: transparent;
     border:0;
+}
+/*
+=========================================================
+LATERAL SECTION
+=========================================================*/
+.lateral-content{
+    position: fixed;
+    top: 7rem;
+    left: 60rem;
+    min-width: 20rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.profile > img {
+    border-radius: 50%;
+    height:5rem;
+}
+.profile > div{
+    flex-direction: column;
+    margin:1rem;
+}
+.profile > div > h5{
+    color: gray;
+}
+.btn-lateral{
+    margin-left: 7rem;
+    background-color: transparent;
+    border:0;
+    color: #1e7dfa;
+}
+.sugestions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sugestions > h5{
+    color:gray;
+}
+.people-to-follow{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.people-to-follow > img{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+.profile-info{
+    margin-left:1rem;
+}
+.profile-info > h5{
+    color: gray;
+}
+.people-to-follow > button{
+    margin-left: 9rem;
+    background-color: transparent;
+    border:0;
+    color: #1e7dfa;
 }
