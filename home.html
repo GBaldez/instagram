@@ -14,53 +14,83 @@
 <body>
     <div class="wrapper">
 <!--HEADER-->
-        <div class="header">
+        <header class="header">
             <img src="./img/instagram-logo.png" class="ig-logo" alt="instagram logo">
             <input type="text" class="search-input" placeholder="Pesquisar">
-            <div class="navbar">
+            <nav class="navbar">
                 <img src="./img/home.PNG" alt="home"><img src="./img/send.PNG" alt="send message"><img src="./img/add.PNG" alt="add">
                 <img src="./img/explore.PNG" alt="discover"><img src="./img/like.PNG" alt="like"><img class="profile-picture" src="./img/perfil-instagram.jpg" alt="profile-picture">
-            </div>
-        </div>
+            </nav>
+        </header>
 <!--END OF HEADER-->
 <!--STORIES-->
-        <div class="stories">
-            <div class="owl-carousel owl-theme">
+        <section class="stories">
+            <div class="owl-carousel owl-theme"> 
                 <div class="item">
                     <div class="story">
                         <img class="stories-pic" src="./img/perfil-instagram.jpg">
                     </div> 
-                        <p class="story-name">a</p>                   
+                        <p class="story-name">adriana</p>                   
                 </div>
                 <div class="item">
                     <div class="story">
                         <img class="stories-pic" src="./img/perfil-instagram.jpg">
                     </div>
-                        <p class="story-name">a</p>               
+                        <p class="story-name">bernardo</p>               
                 </div>
                 <div class="item">
                 <div class="story">
                     <img class="stories-pic" src="./img/perfil-instagram.jpg"></div>
-                    <p class="story-name">a</p>             
+                    <p class="story-name">Camila</p>             
             </div>
             <div class="item">
                 <div class="story">
                     <img class="stories-pic" src="./img/perfil-instagram.jpg">
                 </div>
-                    <p class="story-name">a</p>               
+                    <p class="story-name">Dalila</p>               
             </div>
-            </div>  
-        </div>  
-            
+            </div>
+        </section>             
 <!--END OF STORIES-->
-        <div class="feed"></div>
+<!--FEED-->
+        <article class="post">
+            <section class="user-info">
+                <div class="user-info-pic">
+                    <img src="./img/perfil-instagram.jpg" alt="profile-picture">
+                </div>
+                <h3 class="user-info-name">adriana</h3>
+            </section>
+            <section class="post-content">
+                <img src="./img/perfil-instagram.jpg" alt="post-picture">
+                <section class="interactions">
+                    <img src="./img/like.PNG" alt="like">
+                    <img src="./img/send.PNG" alt="send">
+                    <a href="#">
+                        <img src="./img/comment.PNG" alt="comment"> 
+                    </a>
+                    <img class="save" src="./img/save.PNG" alt="save">
+                </section>
+                <h4>2,100 curtidas</h4>
+                <p class="post-text">
+                    <b>adriana</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </p>
+                <h6>HÁ 2 HORAS</h6>
+                <section class="comment">
+                    <img src="./img/smile.PNG" alt="smile">
+                    <input type="text" class="comment-input" onkeydown="changeColorTextButton()" placeholder="Adicione um comentário...">
+                    <button class="publish">Publicar</button>
+                </section>
+        </article>
+<!--END OF FEED-->
         <div class="profile"></div>
         <div class="sugestions"></div>
     </div>
     
     <script src="./js/owl/jquery.min.js"></script>
     <script src="./js/owl/owl.carousel.min.js"></script>
-    <script src="./js/owl/setup.js"></script> 
+    <script src="./js/owl/setup.js"></script>
+    <script src="./js/owl/storiesData.js"></script>
+   <script src="./script.js"></script>
    
     	
 </body>
