@@ -6,10 +6,10 @@ $('.owl-carousel').owlCarousel({
     
     responsive:{
         0:{
-            items:1
+            items:5
         },
         600:{
-            items:3
+            items:6
         },
         1000:{
             items:7

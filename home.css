@@ -3,14 +3,19 @@
 =========================================================*/
 .header{
     display:flex;
+    position:fixed;
+    top: 0;
+    left:0;
+    z-index:99;
     width: 100vw;
     padding: 1rem;
     border-bottom: 1px solid lightgray;
+    background-color:white;
 }
 .ig-logo{
     height: 2rem;
     margin-top: 0.5rem;
-    margin-left: 14rem;
+    margin-left: 14rem; 
     
 }
 .search-input{
@@ -49,16 +54,21 @@
 .profile-picture{
     border-radius: 50%;
 }
+.wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    padding-left:15rem;
+}
 /*
 =========================================================
 STORIES SECTION
 =========================================================*/
 .stories{
     border: 1px solid lightgray;
-    margin-left:15rem;
-    margin-top:1.5rem;
+    margin-top:6rem;
     height: 8rem;
-    width: 45%;
+    width: 53%;
+    background-color:white;
 }
 .stories-pic,
 .user-info-pic > img{
@@ -90,9 +100,9 @@ FEED SECTION
 =========================================================*/
 .post {
     border: 1px solid lightgray;
-    margin-left:15rem;
     margin-top:1.5rem;
-    width: 45%;
+    width: 53%;
+    background-color:white;
 }
 .post-content > img{
     width: 100%;
@@ -145,7 +155,7 @@ h6 {
 }
 .comment > button {
     margin-right: 0;
-    color:rgba(78, 168, 252, 0.972);
+    color:rgba(175, 214, 250, 0.972);
     font-size: medium;
     background-color: transparent;
     border:0;
@@ -213,3 +223,146 @@ LATERAL SECTION
     border:0;
     color: #1e7dfa;
 }
+@media screen and (max-width: 600px) {
+    .header{
+        width: 100vw;
+        display:flex;
+        flex-shrink: 0;
+    }
+    .ig-logo{
+        margin-left: 0;
+    }
+    .search-input{
+        display:none;
+    }
+    .navbar{
+        flex-wrap:nowrap;
+        margin-left:2rem;
+    }
+    .navbar img {
+    margin: 0 0.5rem;
+    }
+    .wrapper{
+        padding-left: 0;
+    }
+    .stories{
+        width: 100%;
+    }
+    .post{
+        width:100vw;
+    }
+    .save{
+        margin-left: 20rem;
+        align-self: flex-end;
+    }
+    .lateral-content{
+        display:none;
+    }
+}
+ @media screen and (max-width: 768px) {
+    .header{
+        width: 100vw;
+        display:flex;
+        flex-shrink: 1;
+    }
+    .ig-logo{
+        margin-left: 0;
+    }
+    .search-input{
+        margin-left: 1rem;
+    }
+    .navbar{
+        margin-left: 1rem;
+    }
+    .wrapper{
+        padding-left: 0;
+        display:flex;
+        flex-direction: column;
+    }
+    .save {
+        margin-left: 20rem;
+    }
+    .lateral-content{
+        display:none;
+    }
+    .stories{
+        width: 80vw;
+    }
+    .post{
+        width:80vw;
+    } 
+ }
+
+@media screen and (max-width: 992px) {
+    .header{
+        width: 100vw;
+        display:flex;
+        flex-shrink: 1;
+    }
+    .ig-logo{
+        margin-left: 0;
+    }
+    .search-input{
+        margin-left: 1rem;
+    }
+    .navbar{
+        margin-left: 1rem;
+    }
+    .wrapper{
+        padding-left: 0;
+        display:flex;
+        flex-direction: column;
+    }
+    .save {
+        margin-left: 20rem;
+    }
+    .lateral-content{
+        display:none;
+    }
+    .stories{
+        width: 80vw;
+    }
+    .post{
+        width:80vw;
+    } 
+ }
+    
+@media screen and (max-width: 1200px) {
+    .header{
+        width: 100vw;
+        display:flex;
+        flex-shrink: 1;
+        justify-content: space-between;
+    }
+    .ig-logo{
+        margin-left: 3rem;
+    }
+    .search-input{
+        margin-left: 1rem;
+    }
+    .navbar{
+        margin-left: 1rem;
+    }
+    .wrapper{
+        padding-left: 0;
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        left:3rem;
+        max-width:60vw;
+    }
+    .save {
+        margin-left: 20rem;
+    }
+    .post{
+        width:100%;
+    }
+    .stories {
+        width:100%;
+    }
+    .lateral-content{
+        width:50%;
+        left:49rem;
+    }
+ }
+    
