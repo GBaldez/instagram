@@ -3,7 +3,7 @@
 Este repositório é um fork do projeto desenvolvido pela [SpruceGabriela](https://github.com/SpruceGabriela) em sua aula sobre flexbox ministrada para a [Dio](https://www.dio.me/) onde foi feito a tela de login do Instagram de forma totalmente responsiva.
 
 ## O que eu fiz
-* Implementei a tela inicial da versão web do Instagram e para isso eu fiz:
+* Implementei a tela inicial do Instagram com um design responsivo e para isso eu fiz:
   * Incluí um ícone na aba do navegador através do HTML.
     ```html
       <link rel="icon" href="./assets/img/ig-icon.jpg">
@@ -27,7 +27,6 @@ Este repositório é um fork do projeto desenvolvido pela [SpruceGabriela](https
     .header{
         width: 100vw;
         display:flex;
-        flex-shrink: 0;
     }
     ```
 
