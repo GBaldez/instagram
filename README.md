@@ -23,11 +23,11 @@ Este repositório é um fork do projeto desenvolvido pela [SpruceGabriela](https
   * Organizei os elementos da página com flexbox.
   * Usei media queries para ajustar a página a diferentes tamanhos de telas.
     ```css
-      @media screen and (max-width: 600px) {
-    .header{
-        width: 100vw;
-        display:flex;
-    }
+      @media screen and (max-width: 992px) {
+       .header{
+           display:flex;
+           justify-content: space-evenly;
+      }
     ```
 
 ### Resultado
