@@ -260,6 +260,9 @@ RESPONSIVE DESIGN
         padding-left: 0;
         justify-content:center;
     }
+    .comment > input{
+        width: 80%;
+    }
     .lateral-content{
         display:none;
     }
