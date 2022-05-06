@@ -3,6 +3,7 @@
 =========================================================*/
 .header{
     display:flex;
+    justify-content: space-evenly;
     position:fixed;
     top: 0;
     left:0;
@@ -15,8 +16,6 @@
 .ig-logo{
     height: 2rem;
     margin-top: 0.5rem;
-    margin-left: 14rem; 
-    
 }
 .search-input{
     background-color: #efefef;
@@ -177,7 +176,7 @@ LATERAL SECTION
 .lateral-content{
     position: fixed;
     top: 7rem;
-    left: 60rem;
+    left: 70%;
     min-width: 20rem;
 }
 .profile{
@@ -239,13 +238,6 @@ RESPONSIVE DESIGN
 =====================================================
 */
 @media screen and (max-width: 992px) {
-    .header{
-        display:flex;
-        justify-content: space-evenly;
-    }
-    .ig-logo{
-        margin-left: 0;
-    }
     .search-input{
         display:none;
     }
@@ -259,6 +251,10 @@ RESPONSIVE DESIGN
     .wrapper{
         padding-left: 0;
         justify-content:center;
+    }
+    .post,
+    .stories{
+        width:90%;
     }
     .comment > input{
         width: 80%;
