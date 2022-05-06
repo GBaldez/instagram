@@ -35,8 +35,7 @@ Este repositório é um fork do projeto desenvolvido pela [SpruceGabriela](https
 ![image](https://user-images.githubusercontent.com/83733139/166850472-46a6d623-2165-4337-b3a3-2cfb7e69f749.png)
 
 ### Link
-
-
+[Site](https://gbaldez.github.io/instagram/home.html)
 
 ## Agradecimentos
 - Gabriela Pinheiro
