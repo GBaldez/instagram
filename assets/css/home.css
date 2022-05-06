@@ -254,7 +254,7 @@ RESPONSIVE DESIGN
     }
     .post,
     .stories{
-        width:90%;
+        width:90vw;
     }
     .comment > input{
         width: 80%;
