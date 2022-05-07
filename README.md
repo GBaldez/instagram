@@ -24,10 +24,9 @@ Este repositório é um fork do projeto desenvolvido pela [SpruceGabriela](https
   * Usei media queries para ajustar a página a diferentes tamanhos de telas.
     ```css
       @media screen and (max-width: 992px) {
-       .header{
-           display:flex;
-           justify-content: space-evenly;
-      }
+       .search-input{
+           display:none;
+       }
     ```
 
 ### Resultado
